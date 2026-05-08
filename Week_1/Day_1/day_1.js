@@ -14,9 +14,9 @@ function me(){
 console.log(me());
 
 // First Task
-console.log("Hello, JavaScript. \n");
-console.log("My name is Deepankar Shakya \n");
-console.log("I'm learning JavaScript. \n");
+console.log("Hello, JavaScript.");
+console.log("My name is Deepankar Shakya.");
+console.log("I'm learning JavaScript.");
 
 //Second Task 
 const name = "Deepankar Shakya";

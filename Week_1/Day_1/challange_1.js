@@ -6,8 +6,7 @@ const extra = "I have completed N4 and N5 level of Japanese Language, and I have
 const hobby = "My hobby was to play Games."
 
 function myDetail(){
-    let me = `My name is ${name}, I am ${24} years old. \n I live in ${place}. ${degree}
-    ${extra}. ${hobby}`;
+    let me = `My name is ${name}, I am ${24} years old. I live in ${place}. ${degree} ${extra}. ${hobby}`;
     return me;
 }
 console.log(myDetail());
