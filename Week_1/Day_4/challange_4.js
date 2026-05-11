@@ -15,16 +15,16 @@
 
 function Calculator(Grade){
     if(Grade>=95 && Grade <= 100) return "Grade : A+";
-    if(Grade<95 && Grade >= 90) return "Grade : A";
-    if(Grade<90 && Grade >= 85) return "Grade : A-";
-    if(Grade<85 && Grade >= 80) return "Grade : B+";
-    if(Grade<80 && Grade >= 75) return "Grade : B";
-    if(Grade<75 && Grade >= 70) return "Grade : B-";
-    if(Grade<70 && Grade >= 65) return "Grade : C+";
-    if(Grade<65 && Grade >= 60) return "Grade : C";
-    if(Grade<60 && Grade >= 55) return "Grade : C-";
-    if(Grade<55 && Grade >= 50) return "Grade : D";
-    if(Grade<50 && Grade >= 45) return "Grade : D-";
-    else "Fail";
+    if( Grade >= 90) return "Grade : A";
+    if(Grade >= 85) return "Grade : A-";
+    if(Grade >= 80) return "Grade : B+";
+    if(Grade >= 75) return "Grade : B";
+    if(Grade >= 70) return "Grade : B-";
+    if(Grade >= 65) return "Grade : C+";
+    if(Grade >= 60) return "Grade : C";
+    if(Grade >= 55) return "Grade : C-";
+    if(Grade >= 50) return "Grade : D";
+    if(Grade > 45 ) return "Grade : D-";
+    else return "Fail";
 }
-console.log(Calculator(45));
+console.log(Calculator(88));
