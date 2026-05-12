@@ -16,6 +16,9 @@ function menu(){
             readline.close();
             return;
         }
+        if (choice > 7){
+            return menu();
+        }
         handleOperation(choice);
     });
 }
